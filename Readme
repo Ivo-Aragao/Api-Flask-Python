@@ -1,0 +1,48 @@
+Certifique-se de ter o Python instalado
+Crie um ambiente virtual: python -m venv venv
+Ative o ambiente virtual: Windows
+( venv\Scripts\activate )
+
+Instalação do Flask, Flask-RESTful e Flask-SQLAlchemy:
+pip install Flask Flask-RESTful Flask-SQLAlchemy
+
+Instalação do Marshmallow:
+pip install marshmallow
+
+Endpoints:
+
+Tutor Routes:
+
+Listar todos os tutores:
+Método: GET
+URL: http://127.0.0.1:5000/tutors
+
+Criar um novo tutor:
+Método: POST
+URL: http://127.0.0.1:5000/add_tutor
+
+Atualizar um tutor:
+Método: PUT
+URL: http://127.0.0.1:5000/edit_tutor/<tutor_id>
+
+Excluir um tutor:
+Método: DELETE
+URL: http://127.0.0.1:5000/delete_tutor/<tutor_id>
+
+Pet Routes:
+
+Listar todos os pets:
+Método: GET
+URL: http://127.0.0.1:5000/pets
+
+Criar um novo pet:
+Método: POST
+URL: http://127.0.0.1:5000/add_pet
+
+Atualizar um pet:
+Método: PUT
+URL: http://127.0.0.1:5000/edit_pet/<pet_id>
+
+Excluir um pet:
+Método: DELETE
+URL: http://127.0.0.1:5000/delete_pet/<pet_id>
